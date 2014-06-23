@@ -8,6 +8,10 @@ builtins:
 - deferred: on
 - remote_api: on
 
+libraries:
+- name: endpoints
+  version: "latest"
+
 handlers:
 - url: /_ah/spi/.*
   script: run.api

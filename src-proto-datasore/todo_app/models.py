@@ -1,6 +1,6 @@
 import logging
 from google.appengine.ext import ndb
-from endpoints_proto_datastore.ndb.model import EndpointsModel, EndpointsAliasProperty
+from endpoints_proto_datastore.ndb.model import EndpointsModel
 
 
 class TodoModel(EndpointsModel):

@@ -1,4 +1,4 @@
-from google.appengine.ext import endpoints
+import endpoints
 from protorpc import remote
 from todo_app.models import TodoModel
 
