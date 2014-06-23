@@ -4,6 +4,10 @@ runtime: python27
 threadsafe: true
 api_version: 1
 
+libraries:
+- name: endpoints
+  version: "latest"
+
 handlers:
 - url: /_ah/spi/.*
   script: main.application
